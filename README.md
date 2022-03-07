@@ -1,2 +1,2 @@
 # Basic_HTML_Practice
-This is my HTML basic practices, also this works as my revision. 
+This is my HTML basic practices, also these files work as my revision. 
