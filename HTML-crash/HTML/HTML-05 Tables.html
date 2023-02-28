@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Tables</title>
+        <link rel="icon" href="https://live.staticflickr.com/7331/9404155015_95482cd303_z.jpg">
+    </head>
+    
+    <body>
+
+        <!-- 
+            1. table - Table tag
+            2. Atribute: style - Table width 
+            3. tr - Table row; in HTML table works as Row mainly, one information per row
+            4. th - Table header; Top row of the table
+            5. td - Table data; Cell data 
+            6. Atribute: colspan - To make a cell span over multiple columns
+            7. Atribute: rowspan - To make a cell span over multiple rows
+	    8. Atribute: border - To provide border across the data. CSS preferred. 
+        -->
+
+        <h3>Example of Table in HTML:</h3>
+		
+	    <div>
+			<table border style="width:30%">
+				<tr>
+					<th>Name</th>
+					<th>Gender</th>
+					<th>Ninja Rank</th>			
+				</tr>
+				<tr>
+					<td>Naruto Uzumaki</td>
+					<td>Male</td>
+					<td>Hokage</td>
+				</tr>			
+				<tr>
+					<td>Shikamaru Nara</td>
+					<td>Male</td>
+					<td>Jonin</td>
+					<td>Most Favorite</td>
+				</tr>
+				<tr>
+					<td>Kakashi Hatake</td>
+					<td>Male</td>
+					<td>Jonin</td>
+				</tr>	
+				<tr>
+					<td>Jiraya</td>
+					<td>Male</td>
+					<td>Sanin</td>
+				</tr>			
+			</table>
+		</div>
+		
+		<br><hr><br>
+
+		<div>
+			<table border style="width:30%">
+				<tr>
+					<th>W</th>
+					<th>X</th>
+					<th>Y</th>
+					<th>Z</th> 
+				</tr>
+				<tr>
+					<td colspan="2">A</td>
+					<td>B</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+					<td rowspan="2">G</td>
+				</tr>
+				<tr>
+					<td>H</td>
+					<td>I</td>
+					<td>J</td>
+				</tr>
+			</table>
+		</div>
+    
+    </body>
+</html>
